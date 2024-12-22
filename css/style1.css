@@ -1,0 +1,22 @@
+.main{
+    background-color: red;
+    width: 100px; height: 100px;
+    margin: 10px;
+    animation-name: saba;
+    animation-duration:4s ;
+    
+}
+@keyframes saba{
+from{
+    translate:0 0 ;
+    background-color: red;
+}
+to{
+    translate:0 0;
+    background-color: blue;
+}
+
+
+}
+
+

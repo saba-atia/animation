@@ -1,0 +1,16 @@
+.cloud{
+animation-name: cloud;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes cloud{
+    from{
+        translate: 0 0;
+
+    }
+    to{
+        translate: 600px 0;
+    }
+}

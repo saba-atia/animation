@@ -1,0 +1,25 @@
+.main{
+ margin-top: 200px;margin-left: 200px;
+ display:flex;
+ justify-content:start;
+ gap: 50px;
+}
+.main div{
+    display: flex;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    color: white;
+    transition: transform 3s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.box1:hover{
+    transform: rotate(30deg);
+}
+.box2:hover{
+    transform: rotate(-30deg);
+}

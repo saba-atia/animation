@@ -1,0 +1,35 @@
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: box ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes box{
+0%{
+    translate: 0 0;
+    background-color: red;
+}
+25%{
+    translate: 200px 0;
+    background-color: yellow;
+}
+50%{
+    translate: 200px 200px;
+background-color: blue;
+}
+75%{
+    translate: 0 200px;
+background-color: green;
+}
+100%{
+    translate: 0 0;
+    background-color: red;
+}
+
+
+}

@@ -1,0 +1,17 @@
+.main{
+    margin: 50px;
+
+}
+.img1{
+    opacity:0.3;
+}
+.img2{
+position: relative;
+right: 300px;
+
+}
+.img2:hover{
+transform: rotate(30deg);
+
+}
+
