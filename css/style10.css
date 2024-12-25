@@ -1,0 +1,37 @@
+.main{
+    margin: 20px;
+    transform: translate(50% 50%);
+    display: flex;
+}
+.buttery1{
+border: 3px solid black;
+width: 150px;
+height: 60px;
+}
+.buttery2{
+    width: 150px;
+    height:60px ;
+    animation-name:buttery ;
+    animation-duration: 3s;
+    animation-timing-function: linear; */
+    animation-fill-mode: forwards;
+}
+@keyframes buttery{
+    0%{
+        background-color: red;
+    width: 0;
+    }
+    50%{
+        background-color: yellow;
+
+    }
+    100%{
+        background-color: green;
+    }
+
+}
+.buttery3{
+    border:5px solid black;
+    height: 20px;
+    margin-top: 15px;
+}

@@ -1,5 +1,6 @@
 .main{
-    margin: 50px;
+    margin-top: 200px;
+    margin-left: 200px;
 
 }
 .img1{
@@ -8,10 +9,7 @@
 .img2{
 position: relative;
 right: 300px;
-
-}
-.img2:hover{
-transform: rotate(30deg);
-
+transform: rotate(20deg);
+transform-origin:bottom right ;
 }
 
